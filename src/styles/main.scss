@@ -1,0 +1,31 @@
+// format 
+@use './utiles/customColors' as *;
+@use './utiles/customTypo' as *;
+
+
+// style of commponents 
+//@use '../components/InnerHead/InnerHead' ;
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;500;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+/*
+--------
+---
+---
+--
+---
+--------
+*/
+
+// Import de FontAwesome
+@import "~@fortawesome/fontawesome-svg-core/styles.css";
+   /* importer le module boostrap*/
+@import "../../node_modules/bootstrap/scss/bootstrap";
+  
+  
