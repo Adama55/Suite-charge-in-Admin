@@ -21,6 +21,10 @@ import Accessoires from './pages/Accessoires';
 import Objectifs from './pages/Objectifs';
 import Appartements from './pages/Appartements';
 import ErrorPage from './pages/ErrorPage';
+import FirstTrim from './pages/Home/ContentHome/FirstTrim';
+import SecondTrim from './pages/Home/ContentHome/SecondTrim';
+import ThirdTrim from './pages/Home/ContentHome/ThirdTrim';
+import Year2023 from './pages/Home/ContentHome/Year2023';
 
 
 
@@ -31,8 +35,15 @@ function RoutesFile () {
 			<Route path="/" element ={<InnerHead />}>
 				<Route path="/" element ={<Navigate replace to="login" />}/>
 				<Route path="/login" element ={< LoginPage/>} />
-                
-				<Route path="/home" element ={<Home />}/>
+
+				<Route path="home" element ={<Home />}>
+					<Route path='/home' element={<Navigate replace to="firsttrim" />} />
+					<Route path="firsttrim" element ={<FirstTrim/>} />
+					<Route path="secondtrim" element ={<SecondTrim/>} />
+					<Route path="thirdtrim" element ={<ThirdTrim/>} />
+					<Route path="year2023" element ={<Year2023/>} />
+				</Route>                
+
 				<Route path="maisons" element ={<InnerMaison/>}>
 					<Route  path="/maisons" element ={<Navigate replace to="encours" />} />
 					<Route path="encours" element ={<Encours/>} />

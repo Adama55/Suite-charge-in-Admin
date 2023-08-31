@@ -1,5 +1,10 @@
 // ajout de typo
 
+//mixins 
+@mixin gradient($direction,$color-1,$color-2){
+    background: linear-gradient($direction,$color-1, $color-2);
+}
+
 //color
 $green_flash: #4BD2CA; 
 $gris_argent: #AFB2B6;
@@ -32,4 +37,8 @@ $tertiary_2:$bleu_fonce_vif;
 // les autres couleurs
 
 $error_color:$rouge_fonce;
-$success_color:$vert_vif
+$success_color:$vert_vif;
+
+.gradient-lineare-primary{
+    @include gradient(-120deg, #369C96, #8BDFDA 60%);
+}

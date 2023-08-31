@@ -1,0 +1,34 @@
+@use "../../../styles/utiles/customColors" ;
+@use "../../../styles/utiles/customTypo"; 
+
+.sl-chrObjtectif{
+    height: 220px;
+    border-radius: 16px;
+    margin-top: 40px;
+    padding: 30px 38px;
+}
+
+.sl-chrObjtectif .sl-text-head{
+    font-weight: 600 !important; // semi-bold
+    font-size: 27px;
+    color: white;
+}
+
+.sl-chrObjtectif .sl-tab-link a{
+    text-decoration: none;
+    color: white;
+}
+
+.sl-chrObjtectif .tab_active, .tab_inactive{
+    padding: 6px 12px;
+    margin-left: 36px;
+}
+.sl-chrObjtectif .tab_active{
+
+
+}
+
+.sl-chrObjtectif .tab_inactive{
+    background-color: #bdc5cb; 
+    color:#6A93AC;   
+}

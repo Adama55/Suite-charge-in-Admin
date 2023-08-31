@@ -1,3 +1,7 @@
+.gradient-lineare-primary {
+  background: linear-gradient(-120deg, #369C96, #8BDFDA 60%);
+}
+
 .sl-innerHead {
   font-family: "Chivo", sans-serif;
 }
