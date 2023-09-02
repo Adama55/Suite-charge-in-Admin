@@ -6,7 +6,7 @@ import "./ContentHome.css"
 function ChrObjtectif() {
 
 	const location = useLocation()
-	return <div className='sl-chrObjtectif border bg-secondary'>
+	return <div className='sl-chrObjtectif border gradient-lineare-seconadry'>
 		<span className='text-poppins sl-text-head'>
 			Objectifs de
 			<span className='text-primary ms-2'>
@@ -16,7 +16,7 @@ function ChrObjtectif() {
 		<span className='sl-tab-link'>
 			<Link to="firsttrim" className={location.pathname==='/home/firsttrim'?
 				'tab_active gradient-lineare-primary h2_regular':
-				'tab_inactive h2_regular'}>
+				'tab_inactive h2_regular bg-secondary'}>
 					1er trimestre
 			</Link>
 			<Link to="secondtrim" className={location.pathname==='/home/secondtrim'?'tab_active gradient-lineare-primary h2_regular':'tab_inactive'}>2ème trimestre</Link>

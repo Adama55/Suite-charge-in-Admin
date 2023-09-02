@@ -42,3 +42,7 @@ $success_color:$vert_vif;
 .gradient-lineare-primary{
     @include gradient(-120deg, #369C96, #8BDFDA 60%);
 }
+
+.gradient-lineare-seconadry{
+    @include gradient(-120deg, #0C354F, #326B8F 60%);
+}

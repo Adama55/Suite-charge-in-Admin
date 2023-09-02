@@ -2,6 +2,10 @@
   background: linear-gradient(-120deg, #369C96, #8BDFDA 60%);
 }
 
+.gradient-lineare-seconadry {
+  background: linear-gradient(-120deg, #0C354F, #326B8F 60%);
+}
+
 .sl-innerHead {
   font-family: "Chivo", sans-serif;
 }

@@ -22,9 +22,10 @@
 .sl-chrObjtectif .tab_active, .tab_inactive{
     padding: 6px 12px;
     margin-left: 36px;
+    border-radius: 8px;
 }
 
 .sl-chrObjtectif .tab_inactive{
-    background-color: #bdc5cb; 
-    color:#6A93AC;   
+    background-color:#0C354F; 
+    color:#6A93AC !important;   
 }
