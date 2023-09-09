@@ -6,16 +6,16 @@ import "./ContentHome.css"
 function ChrObjtectif() {
 
 	const location = useLocation()
-	return <div className='sl-chrObjtectif border gradient-lineare-seconadry'>
-		<div className='container'>
+	return <div className='sl-chrObjtectif gradient-lineare-seconadry'>
+		<div className='container d-flex flex-column flex-xxl-row'>
 			<div className='text-poppins sl-text-head'>
 				Objectifs de
 				<span className='text-primary ms-2'>
 					Charge-in
 				</span>
 			</div>
-			<div className='row sl-tab-link list-unstyled '>
-				<div className='col-12 col-md-6' >
+			<div className='sl-tab-link list-unstyled d-flex flex-column flex-xl-row'>
+				<div className='d-flex' >
 					<li>
 						<Link to="firsttrim" className={location.pathname==='/home/firsttrim'?
 							'tab_active gradient-lineare-primary h2_regular':
@@ -27,7 +27,7 @@ function ChrObjtectif() {
 						<Link to="secondtrim" className={location.pathname==='/home/secondtrim'?'tab_active gradient-lineare-primary h2_regular':'tab_inactive'}>2ème trimestre</Link>
 					</li>
 				</div>
-				<div className='col-12 col-md-6'>
+				<div className='d-flex'>
 					<li>
 						<Link to="thirdtrim" className={location.pathname==='/home/thirdtrim'?'tab_active gradient-lineare-primary':'tab_inactive'}>3ème trimestre</Link>
 					</li>
