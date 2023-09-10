@@ -30,7 +30,9 @@ function ChrObjtectif() {
 				<div className='d-flex'>
 					<li>
 						<Link to="thirdtrim" 
-							className={location.pathname==='/home/thirdtrim'?'tab_active gradient-lineare-primary':'tab_inactive'}>
+							className={location.pathname==='/home/thirdtrim'?
+								'tab_active gradient-lineare-primary':
+								'tab_inactive'}>
 							3ème trimestre</Link>
 					</li>
 					<li>
