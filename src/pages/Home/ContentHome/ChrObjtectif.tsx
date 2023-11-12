@@ -24,26 +24,24 @@ function ChrObjtectif() {
 				</p>
 			</span>
 			<span className=''>
-				<Link to="secondtrim" className={location.pathname==='/home/secondtrim'?'tab_active gradient-lineare-primary h2_regular':'tab_inactive'}>2ème trimestre</Link>
+				<Link to="secondtrim" 
+					className={location.pathname==='/home/secondtrim'?
+						'tab_active gradient-lineare-primary h2_regular':
+						'tab_inactive'}>
+							2ème trimestre
+				</Link>
 			</span>
 			<span className='text-nowrap'>
 				<Link to="thirdtrim" 
 					className={location.pathname==='/home/thirdtrim'?
 						'tab_active gradient-lineare-primary':
 						'tab_inactive'}>
-							3ème trimestre</Link>
+							3ème trimestre
+				</Link>
 			</span>
 			<span className='text-nowrap'>
 				<Link to="year2023" className={location.pathname==='/home/year2023'?'tab_active gradient-lineare-primary':'tab_inactive'}>année 2023</Link>	
 			</span>
-			{/** <div className='sl-tab-link list-unstyled d-flex flex-column flex-xl-row'>
-				<div className='d-flex' >
-					
-				</div>
-				<div className='d-flex'>
-					
-				</div>						
-			</div> **/}
 		</div>
 		<Outlet/>	
 	</div>;
